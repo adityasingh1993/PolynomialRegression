@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset=pd.read_csv('F:/UdemyML/Machine Learning A-Z Template Folder/Part 2 - Regression/Section 6 - Polynomial Regression/Polynomial_Regression/Position_Salaries.csv')
+dataset=pd.read_csv('Position_Salaries.csv')
 X=dataset.iloc[:,1:2].values
 y=dataset.iloc[:,2].values
 plt.scatter(X,y,color='red')
